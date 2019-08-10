@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951f0b13-4cc7-4264-a4dd-6e4fe6054d62" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ReversibleWiki.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old-Reverse-Wiki.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReversibleWiki.py" afterPath="$PROJECT_DIR$/ReversibleWiki.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wikipage.py" afterPath="$PROJECT_DIR$/Wikipage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikipage.py" afterPath="$PROJECT_DIR$/wikipage.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,35 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="old-Reverse-Wiki.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old-Reverse-Wiki.py">
+      <file leaf-file-name="wiki_scraper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding>
-                <element signature="e#214#229#0" expanded="true" />
+                <element signature="e#555#570#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReversibleWiki.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReversibleWiki.py">
+      <file leaf-file-name="wikipage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wikipage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="e#208#223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wikipage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Wikipage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="344">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -66,6 +55,10 @@
       <find>my_url</find>
       <find>.my_titles</find>
       <find>Added</find>
+      <find>x</find>
+      <find>wiki_url</find>
+      <find>get</find>
+      <find>add_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,8 +68,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Wikipage.py" />
-        <option value="$PROJECT_DIR$/old-Reverse-Wiki.py" />
         <option value="$PROJECT_DIR$/ReversibleWiki.py" />
+        <option value="$PROJECT_DIR$/old-Reverse-Wiki.py" />
+        <option value="$PROJECT_DIR$/wiki_scraper.py" />
+        <option value="$PROJECT_DIR$/wikipage.py" />
       </list>
     </option>
   </component>
@@ -131,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReversibleWiki">
+  <component name="RunManager" selected="Python.wiki_scraper">
     <configuration name="ReversibleWiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,14 +161,33 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="wiki_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Reversible-Wiki" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wiki_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.old-Reverse-Wiki" />
       <item index="1" class="java.lang.String" itemvalue="Python.ReversibleWiki" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wiki_scraper" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.ReversibleWiki" />
-        <item index="1" class="java.lang.String" itemvalue="Python.old-Reverse-Wiki" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.wiki_scraper" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ReversibleWiki" />
+        <item index="2" class="java.lang.String" itemvalue="Python.old-Reverse-Wiki" />
       </list>
     </recent_temporary>
   </component>
@@ -224,30 +238,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old-Reverse-Wiki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="e#214#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReversibleWiki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="390">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old-Reverse-Wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
           <folding>
-            <element signature="e#208#223#0" expanded="true" />
+            <element signature="e#555#570#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wikipage.py">
+    <entry file="file://$PROJECT_DIR$/wikipage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="344">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
